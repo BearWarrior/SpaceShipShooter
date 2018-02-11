@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B0B2F4A2-9D4C-4672-ADA2-FDBEF87D6E76}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\Armes\AIDEimplanterArme.cs" />
+     <Compile Include="Assets\Script\Armes\Alien.cs" />
+     <Compile Include="Assets\Script\Armes\Arme.cs" />
+     <Compile Include="Assets\Script\Armes\ArmeRotate.cs" />
+     <Compile Include="Assets\Script\Armes\CanonPlasma.cs" />
+     <Compile Include="Assets\Script\Armes\CaracArmes.cs" />
+     <Compile Include="Assets\Script\Armes\DoubleLame.cs" />
+     <Compile Include="Assets\Script\Armes\Fire.cs" />
+     <Compile Include="Assets\Script\Armes\FireOneByOne.cs" />
+     <Compile Include="Assets\Script\Armes\FireSideBySide.cs" />
+     <Compile Include="Assets\Script\Armes\LanceMissile.cs" />
+     <Compile Include="Assets\Script\Armes\LanceMissileRapide.cs" />
+     <Compile Include="Assets\Script\Armes\Laser.cs" />
+     <Compile Include="Assets\Script\Armes\ParticleManagment.cs" />
+     <Compile Include="Assets\Script\Armes\Tromblon.cs" />
+     <Compile Include="Assets\Script\Armes\Turret.cs" />
+     <Compile Include="Assets\Script\BeginScene.cs" />
+     <Compile Include="Assets\Script\Bézier\Bezier.cs" />
+     <Compile Include="Assets\Script\Bézier\BezierControlPointMode.cs" />
+     <Compile Include="Assets\Script\Bézier\BezierCurve.cs" />
+     <Compile Include="Assets\Script\Bézier\BezierSpline.cs" />
+     <Compile Include="Assets\Script\Bézier\SplineDecorator.cs" />
+     <Compile Include="Assets\Script\Bézier\SplineWalker.cs" />
+     <Compile Include="Assets\Script\Bézier\SplineWalkerMode.cs" />
+     <Compile Include="Assets\Script\Bézier\tempoSplineWalker.cs" />
+     <Compile Include="Assets\Script\CaracFenetre.cs" />
+     <Compile Include="Assets\Script\Chassis\AssemblageVaisseau.cs" />
+     <Compile Include="Assets\Script\Chassis\Chassis.cs" />
+     <Compile Include="Assets\Script\Chassis\ChassisAllie.cs" />
+     <Compile Include="Assets\Script\Chassis\ChassisEnemy.cs" />
+     <Compile Include="Assets\Script\Chassis\ChassisPlayer.cs" />
+     <Compile Include="Assets\Script\Chassis\ParametresChassis.cs" />
+     <Compile Include="Assets\Script\Chassis\collisionChassi.cs" />
+     <Compile Include="Assets\Script\Decors\DecorsMove.cs" />
+     <Compile Include="Assets\Script\Decors\GestionDecors.cs" />
+     <Compile Include="Assets\Script\Decors\GestionDecorsMenu.cs" />
+     <Compile Include="Assets\Script\EndLevel.cs" />
+     <Compile Include="Assets\Script\Enemy\BossCarrier\EnnemyMoveBossPhase1.cs" />
+     <Compile Include="Assets\Script\Enemy\BossCarrier\EnnemyMoveBossPhase2.cs" />
+     <Compile Include="Assets\Script\Enemy\DestroyLocation.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveBossGroup.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveComeFire.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveEscapeBackDown.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveEscapeBackUp.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveEscapeDown.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveEscapeUp.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveRect.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveRectNoFire.cs" />
+     <Compile Include="Assets\Script\Enemy\EnnemyMoveSin.cs" />
+     <Compile Include="Assets\Script\Enemy\Group.cs" />
+     <Compile Include="Assets\Script\Enemy\ListGroupEnemy.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternBoss.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS1_1.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS1_2.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS1_3.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS1_5.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS2_1.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS2_2.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS2_3.cs" />
+     <Compile Include="Assets\Script\Enemy\Patternes\PatternS2_4.cs" />
+     <Compile Include="Assets\Script\Enemy\groupBossRepop.cs" />
+     <Compile Include="Assets\Script\Enemy\joinCenter.cs" />
+     <Compile Include="Assets\Script\Loot\Ferraille.cs" />
+     <Compile Include="Assets\Script\Loot\LootScript.cs" />
+     <Compile Include="Assets\Script\Loot\MoveLoot.cs" />
+     <Compile Include="Assets\Script\Loot\MunPerforantes.cs" />
+     <Compile Include="Assets\Script\Loot\RepVaisseau.cs" />
+     <Compile Include="Assets\Script\Loot\rotationX.cs" />
+     <Compile Include="Assets\Script\Menus\CaracSolarSystem.cs" />
+     <Compile Include="Assets\Script\Menus\DrawCircle.cs" />
+     <Compile Include="Assets\Script\Menus\MenuAchat.cs" />
+     <Compile Include="Assets\Script\Menus\MenuAtelier.cs" />
+     <Compile Include="Assets\Script\Menus\MenuChoixLevel.cs" />
+     <Compile Include="Assets\Script\Menus\MenuHangar.cs" />
+     <Compile Include="Assets\Script\Menus\MenuIntermediaire.cs" />
+     <Compile Include="Assets\Script\Menus\MenuPause.cs" />
+     <Compile Include="Assets\Script\Menus\MenuPrincipal.cs" />
+     <Compile Include="Assets\Script\Menus\PatternToLaunch.cs" />
+     <Compile Include="Assets\Script\Player\AddPlayerScript.cs" />
+     <Compile Include="Assets\Script\Player\Aimant.cs" />
+     <Compile Include="Assets\Script\Player\FlotteController.cs" />
+     <Compile Include="Assets\Script\Player\GoToLocalPos.cs" />
+     <Compile Include="Assets\Script\Player\HUD.cs" />
+     <Compile Include="Assets\Script\Player\Player.cs" />
+     <Compile Include="Assets\Script\Player\PointToPlayer.cs" />
+     <Compile Include="Assets\Script\Player\characterController.cs" />
+     <Compile Include="Assets\Script\Projectiles\BouleSin.cs" />
+     <Compile Include="Assets\Script\Projectiles\Missile.cs" />
+     <Compile Include="Assets\Script\Projectiles\MissileEnemy.cs" />
+     <Compile Include="Assets\Script\Projectiles\Projectile.cs" />
+     <Compile Include="Assets\Script\Projectiles\loadExpl.cs" />
+     <Compile Include="Assets\Script\Projectiles\projCanonPlasma.cs" />
+     <Compile Include="Assets\Script\Projectiles\projTromblon.cs" />
+     <Compile Include="Assets\testLaser.cs" />
+     <None Include="Assets\Script\Enemy\Patternes\nomSpline.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{633E4940-8186-6EBF-9B44-64C501DE7D6B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

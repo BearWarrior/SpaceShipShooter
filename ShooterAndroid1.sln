@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShooterAndroid1.CSharp", "ShooterAndroid1.CSharp.csproj", "{7F14CAEF-37DB-6806-7612-23E0710B30DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShooterAndroid1.CSharp.Editor", "ShooterAndroid1.CSharp.Editor.csproj", "{36FA0860-F02A-E636-D30C-D40F952C61D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F14CAEF-37DB-6806-7612-23E0710B30DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F14CAEF-37DB-6806-7612-23E0710B30DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F14CAEF-37DB-6806-7612-23E0710B30DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F14CAEF-37DB-6806-7612-23E0710B30DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FA0860-F02A-E636-D30C-D40F952C61D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FA0860-F02A-E636-D30C-D40F952C61D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FA0860-F02A-E636-D30C-D40F952C61D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FA0860-F02A-E636-D30C-D40F952C61D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

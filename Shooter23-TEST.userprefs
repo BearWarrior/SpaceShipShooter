@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Player\Player.cs">
+    <Files>
+      <File FileName="Assets\Script\AIDEimplanterArme.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menus\MenuPause.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Player\Player.cs" Line="243" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
